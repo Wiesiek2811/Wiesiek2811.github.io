@@ -53,6 +53,41 @@ body { padding: 0; margin: 0 }
   padding-top: 70px;
 }
 
+ul {
+display: inline;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+   top: 0;
+   width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
 
 </style>
 <body>
@@ -62,22 +97,26 @@ body { padding: 0; margin: 0 }
 <h1 id="home">Will Bland <br>Junior Front End Developer</h1>
 </div>
 
+<div id="nav">
 <ul>
-  <li><a href="#home">Home</a></li>
+  <li><a href="#">Home</a></li>
   <li><a href="#about">About Me</a></li>
   <li><a href="#project">My Projects</a></li>
   <li><a href="#contact">Contact</a></li>
 </ul>
+</div>
 
 <div id="about">
 <h1>About Me</h1>
-<p>I am a 26 year old British guy, currently living in Wasraw Poland. I have been here for nearly 6 years now and learning to code for 2. I have now become passionate about learning to code and love tryingto create something which is aesthetically pleasing and has lots of little features. In my spare time I like to play football and get shit wasted.
+<p>I am a 26 year old British guy, currently living in Wasraw Poland. I have been here for nearly 6 years now and I have been learning to code for 2. I have now become passionate about learning to code and love tryingto create something which is aesthetically pleasing and has lots of little features.
+   In my spare time I like to play football and get shit wasted. </p>
 </div>
 
 <div id="project">
 <h1>My Projects</h1>
-<p>I am actively building projects and always aim to improve myself as much as I can. Please check my Github or my Linkedin for more information.</p>
-<i class="fa fa-github" aria-hidden="true"></i>
+<p>I am always actively working on some project and always aim to improve myself as much as I can. Please check my Github or my Linkedin for more information.</p>
+<a href="www.carlropeaccess.co.uk"><img src="logo.png" alt="My Picture" style="width:150px;height:100px;"></a>
+
 </div>
 
 <div id="contact">
